@@ -93,7 +93,7 @@ public class SnL {
         boolean correct=false;
 
         while(!correct){
-            for (int z = 9; z >= 5; z--) {
+            for (int z = 10; z >= 5; z--) {
 
 
                 if((b%z) == 0){
