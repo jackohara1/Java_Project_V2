@@ -6,6 +6,7 @@ import javax.swing.*;
 
         import java.util.Random;
 
+
 public class test extends JFrame {
     public static void main(String[] args) {
 
@@ -23,7 +24,7 @@ public class test extends JFrame {
 
         boardsize = Integer.parseInt(JOptionPane.showInputDialog("Please enter how many squares youd like on your board"));
 
-        while (boardsize > 100 || boardsize < 20) {
+        while (boardsize > 100 || boardsize < 40) {
 
             if (boardsize > 100) {
 
