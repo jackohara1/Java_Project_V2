@@ -44,7 +44,7 @@ public class test extends JFrame {
 
         }//boardsize validation loop
         newBoard.setSpaces(SnL.retrivenewBoardsize(boardsize));
-        
+
         newBoard.setXaxis(SnL.retriveXaxis(newBoard.getSpaces(), Xaxis));
 
         newBoard.setYaxis(newBoard.getSpaces()/newBoard.getXaxis());

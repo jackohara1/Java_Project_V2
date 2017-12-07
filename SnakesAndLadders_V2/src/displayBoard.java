@@ -11,7 +11,7 @@ public class displayBoard extends JFrame{
 
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
-        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();//https://stackoverflow.com/questions/11570356/jframe-in-full-screen-java
         setSize(screenSize.width, screenSize.height);
         setLayout(new GridLayout(newBoard.getXaxis(),(newBoard.getYaxis()*2)));
 
